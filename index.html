@@ -1,0 +1,19 @@
+<!doctype html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#7b421f"><title>श्री वाल्मीकि रामायण</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><header><div class="brand">ॐ <span>श्री वाल्मीकि रामायण<small>By Deepak Sanwaria</small></span></div><button id="theme">☾</button></header><main>
+<section id="home">
+  <div class="home-shell">
+    <div class="hero-image">
+      <img src="assets/ram-hero.webp" alt="श्री राम with bow at sunrise">
+      <div class="hero-overlay"></div>
+      <div class="hero-title">
+        <div class="hero-om">ॐ</div>
+        <h1>श्री वाल्मीकि रामायण</h1>
+      </div>
+    </div>
+    <div class="card">
+      <div class="om">॥ श्री राम ॥</div>
+      <h2>रामायण पढ़ें</h2>
+      <p>काण्ड चुनें, फिर सर्ग और पढ़ने के लिए श्लोकों की सीमा चुनें।</p><div id="resume"></div><div class="grid"><label>काण्ड<select id="kanda"></select></label>
+<label>सर्ग<select id="sarga"></select></label>
+<label>श्लोक से<input id="from" type="number" min="1" value="1"></label>
+<label>श्लोक तक<input id="to" type="number" min="1" value="10"></label></div><div id="info"></div><button id="start" class="primary">📖 पढ़ना शुरू करें</button><div class="jai-note">राम रामेति रामेति, रमे रामे मनोरमे।<br>सहस्रनाम तत्तुल्यं, रामनाम वरानने॥</div></div></section>
+<section id="reader" class="hidden"><div class="reader-head"><button id="back">← वापस</button><div><b id="rk"></b><small id="rs"></small></div><div><button id="bookmarks">★</button><button id="font">Aa</button></div></div><div id="book"><article id="left"></article><article id="right"></article></div><div class="nav"><button id="prev">‹ पिछला</button><div><span id="count"></span><div class="bar"><i id="bar"></i></div></div><button id="next">अगला ›</button></div><div class="audio"><button id="play" class="primary">▶ श्लोक सुनें</button><button id="all">▶ सभी श्लोक सुनें</button><button id="stop">■ रोकें</button><label>गति <select id="speed"><option>.75</option><option selected>1</option><option>1.25</option><option>1.5</option></select></label><span id="status">संस्कृत उच्चारण</span></div></section></main><div id="fontPanel" class="float hidden"><button data-f="small">A−</button><button data-f="normal">A</button><button data-f="large">A+</button><button data-f="zoomout">−</button><button data-f="reset">100%</button><button data-f="zoomin">+</button></div><div id="modal" class="modal hidden"><div class="modalbox"><div class="modalhead"><b>बुकमार्क</b><button id="close">✕</button></div><div id="bookmarkList"></div></div></div><script src="app.js"></script></body></html>
